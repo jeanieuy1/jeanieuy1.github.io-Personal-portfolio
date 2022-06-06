@@ -4,11 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My personal portfolio</title>
-    <!--css-->
     <link rel="stylesheet" href="./css/jass.css">
     <link rel="stylesheet" href="./css/style.css">
-
+    <title>My personal portfolio</title>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
@@ -17,26 +15,45 @@
 </head>
 
 <body>
-    <header>
-        <nav class="d-flex navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand pl-3" href="/">Jeanie Uy</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="/">Home</a>
-                    <a class="nav-item nav-link" href="/about">About me</a>
-                    <a class="nav-item nav-link" href="/profile">Profile</a>
-                </div>
+    <div class="header">
+        <div>
+            <ul>
+                <li>
+                    <a href="#Home">Home</a>
+                </li>
+                <li>
+                    <a href="#Profile">Profile</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="content">
+            <div id="Home" class="Home">
+                <img src="images/Self.jpeg" alt="Photo of myself" />
+                <h2>Home</h2>
+                <p>
+                    Hello! My name is Jeanie Uy and I am studying to be a web developer! I am a recent college graduate
+                    from the University at Albany SUNY. I studied Human Biology and I
+                    currently work for Northwell Health Laboratories in Long Island, NY. I am looking to expand into the
+                    tech industry through a Full stack web developer bootcamp.
+                </p>
+                <a href="https://github.com/jeanieuy" class="button">Github</a>
+                <a href="https://www.linkedin.com/in/jeanie-uy-54ba36126" class="button">LinkedIn</a>
             </div>
-        </nav>
-    </header>
-
-    <footer>
-        <div class="footer-copyright text-center py-3">© 2022 Copyright :) </div>
-    </footer>
+        </div>
+        <div class="MyProfile">
+            <div id="Profile" class="Profile">
+                <h2>My profile</h2>
+                <p>
+                    Adding portfolio stuff in here
+                </p>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h2>© 2022 Copyright :)</h2>
+        </footer>
 
 </body>
 
